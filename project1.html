@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,*::before,
+        *::after{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        .card{
+            width:500px;
+            border: none;
+            border-radius: 10px;
+            margin:50px auto;
+            padding: 20px;
+            text-align:left;
+            line-height: 1.2;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,212,22,1) 35%, rgba(0,212,255,1) 100%);
+        }
+        .btn{
+            padding:10px;
+            cursor: pointer;
+            background-color: blue;
+            color:white;
+            border:none;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .name{
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+        .title{
+            margin:15px 0px;
+        }
+        .description{
+            line-height: 1.2;
+            max-width: 50ch;
+            text-align: justify;
+            letter-spacing:none; 
+        }
+
+    </style>
+</head>
+<body>
+   <div class="card">
+    <p class="name">Tap Academy</p>
+    <h1 class="title">Gamify Learning Simplify Employment</h1>
+    <p class="description">Tap Academy blends AR, Animation, and AI to teach coding,Full Stack Web Development, and tech trends, fostering personalized learning and community engagement.</p>
+    <button class="btn">Learn more</button>
+   </div>
+</body>
+</html>
